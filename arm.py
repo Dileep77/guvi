@@ -1,3 +1,4 @@
+
 a=int(raw_input())
 temp=a
 arm=0
@@ -6,6 +7,6 @@ while a>0:
   arm=arm+n**3
   a=a/10
 if temp==arm:
-  print("arm")
+  print("yes")
 else:
   print("no")
