@@ -1,6 +1,6 @@
-a=int(input())
+p=int(input())
 dil=[]
-for i in range(a):
+for i in range(p):
   dil=list(map(int,input().split()))
-  print(max(dil))
+  print(min(dil))
   exit()
