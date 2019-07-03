@@ -1,6 +1,4 @@
-a=input()
-b=input()
-c=input()
+a,b,c=(input().split())
 if a>b and a>c:
   largest=a
 elif b>c and b>a:
