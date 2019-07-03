@@ -1,4 +1,4 @@
-a,b,c=(input().split())
+a,b,c=map(int,input().split())
 if a>b and a>c:
   largest=a
 elif b>c and b>a:
