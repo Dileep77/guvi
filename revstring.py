@@ -1,2 +1,2 @@
-k=input()
-print(k[::-1])
+ab=input()
+print(ab[::-1])
