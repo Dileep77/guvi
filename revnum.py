@@ -1,7 +1,7 @@
 dil=int(input("Enter number: "))
-rev=0
+kev=0
 while(dil>0):
-    dig=dil%10
-    rev=rev*10+dig
+    pig=dil%10
+    kev=kev*10+pig
     dil=dil//10
-print("Reverse of the number:",rev)
+print(kev)
