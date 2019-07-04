@@ -1,4 +1,4 @@
-dil=int(input("Enter number: "))
+dil=int(input())
 kev=0
 while(dil>0):
     pig=dil%10
