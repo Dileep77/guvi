@@ -11,5 +11,8 @@ def Repeat(x):
 n=int(input())
 list1 = list(map(int,input().split()))
 li2=Repeat(list1)
-for i in li2:
-	print(i,end=" ")
+if li2==[]:
+	print("unique")
+else:
+	for i in li2:
+		print(i,end=" ")
