@@ -1,5 +1,7 @@
 a=list(map(str,input().split()))
-print(a)
-k=a[::-1]
-for i in k:
-	print(i,end="")
+h=[]
+for i in a:
+	k=i[::-1]
+	h.append(k)
+for j in h:
+	print(j,end=" ")
