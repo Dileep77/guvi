@@ -1,5 +1,3 @@
-
-
 def Repeat(x): 
 	_size = len(x) 
 	repeated = [] 
@@ -10,5 +8,8 @@ def Repeat(x):
 				repeated.append(x[i]) 
 	return repeated 
 
-list1 = list(map(int,input().split())) 
-print (Repeat(list1)) 
+n=int(input())
+list1 = list(map(int,input().split()))
+li2=Repeat(list1)
+for i in li2:
+	print(i,end=" ")
