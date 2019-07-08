@@ -7,4 +7,4 @@ for i in a:
 		k.append(i.lower())
 
 for p in k:
-	print(h,end="")
+	print(p,end="")
