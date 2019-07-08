@@ -1,3 +1,3 @@
-k=input().strip().split()
-for i in k:
+kh=input().strip().split()
+for i in kh:
 	print(i,end=" ")
