@@ -6,5 +6,5 @@ for i in a:
 	elif i.isupper()==True:
 		k.append(i.lower())
 
-for h in k:
+for p in k:
 	print(h,end="")
