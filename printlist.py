@@ -1,3 +1,4 @@
 a=int(input())
-p=list(map(int,input().split()))
-print(p[::-1])
+p=list(map(str,input().split()))
+p.reverse()
+print("->".join(p))
